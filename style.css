@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+}
+.container{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    height: 100vh;
+    overflow: hidden;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3{
+    padding-bottom: 10px;
+    background: linear-gradient(to right, #f32170, #FEE715);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+}
+.top{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.task_input{
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    padding:4px 0;
+    background-color: #fff;
+    padding-left: 10px;
+}
+.btns :nth-child(1){
+    padding: 4px;
+    border: none;
+    margin-left: 6px;
+    border-radius:5px;
+}
+
+.taskcontainer{
+    display: flex;
+    background-color: rgba(255, 255, 255,0.2); 
+    column-gap: 5px;
+    border-radius: 10px;
+    padding: 0 0.5em;
+    overflow: hidden;
+    
+}
+
+.modify{
+    display: flex;
+    column-gap:7px;
+}
+#task{
+    outline: 0;
+    border: 0;
+    background-color:transparent; 
+    color: #fff;
+    cursor: pointer;
+   
+}
+.edit{
+    background-color: #1E74FF;
+    border:none;
+    padding: 0.3em 0.5em;
+
+}
+.save{
+    background-color: darkgreen;
+    border: none;
+    padding:0.3em 0.5em ;
+    display: none;
+}
+.del{
+    background-color: #ff0000;
+    border:none;
+    padding: 0.3em 0.5em;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
