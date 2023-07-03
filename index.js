@@ -63,10 +63,10 @@ addTasks.addEventListener("click",()=>{
     task.setAttribute("readonly","readonly");
     button1.style.display = "block";
     button1_1.style.display = "none";
-    localStorage.setItem("key", task.value)// Save task value in localStorage
+    //localStorage.setItem("key", task.value)// Save task value in localStorage
     
    })
-   task.value = localStorage.getItem("key");
+   //task.value = localStorage.getItem("key");
 
 
    //delete button
