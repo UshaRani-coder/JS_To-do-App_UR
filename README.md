@@ -11,4 +11,5 @@
 🔥[Live link](https://js-to-do-app-ur.vercel.app/)🔥
 
 ## About the Project 
-Users can **add** the **tasks** , **edit** the tasks , **save** the tasks &  **delete** the tasks.
+Users can **add** the **tasks** , **edit** the tasks , **save** the tasks in Local Storage &  **delete** the tasks.
+
